@@ -3766,6 +3766,9 @@ input[type="radio"] {
   min-height: 520px;
   cursor: pointer;
 }
+.slider .slide__content{
+  text-align: center;
+}
 .slider .slide__subtitle {
   display: block;
   font-family: Roboto, sans-serif;
@@ -3780,6 +3783,8 @@ input[type="radio"] {
   line-height: 1.1;
   color: #fff;
   margin-bottom: 25px;
+  text-align: center;
+
 }
 .white_title {
   font-size: 15px;
@@ -3791,6 +3796,7 @@ input[type="radio"] {
   color: #fff;
   max-width: 550px;
   margin-bottom: 30px;
+  margin-inline: auto;
 }
 .slider .slick-dots {
   position: absolute;
@@ -6816,5 +6822,37 @@ input[type="radio"] {
     font-size: 28px !important;
     line-height: 1.2;
     margin-bottom: 20px;
+  }
+}
+.headig-title{
+  font-size: 37px;
+  margin-bottom: 20px;
+  margin-inline: auto;
+  text-align: center;
+}
+.headig-sub-titile{
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  color: #848e9f;
+  margin-bottom: 12px;
+  max-width: 540px;
+  margin-inline: auto;
+  text-align: center;
+}
+.hire-dev-card{
+  padding: 10px;
+ background-color:#eafbff;
+ margin-top: 30px;
+  & .img-box{
+    height: 80px;
+    & img{
+      height: 100%;
+    }
+  }
+  & .hire-dev-title{
+    font-size: 24px;
+  }
+  & .hire-dev-sub-title{
+    font-size: 18px;
   }
 }
