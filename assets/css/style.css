@@ -6824,6 +6824,7 @@ input[type="radio"] {
     margin-bottom: 20px;
   }
 }
+/* hire-dev section start */
 .headig-title{
   font-size: 37px;
   margin-bottom: 20px;
@@ -6839,12 +6840,14 @@ input[type="radio"] {
   margin-inline: auto;
   text-align: center;
 }
+
 .hire-dev-card{
-  padding: 10px;
+  padding: 20px 30px;
  background-color:#eafbff;
  margin-top: 30px;
   & .img-box{
     height: 80px;
+    margin-bottom: 30px;
     & img{
       height: 100%;
     }
@@ -6856,3 +6859,27 @@ input[type="radio"] {
     font-size: 18px;
   }
 }
+/* hire-dev section End */
+/* expect-section Start */
+.expect-menu-ul{
+  & .nav-item{
+    list-style: none;
+    margin: 7px 0;
+    & .active {
+      box-shadow: 0 0 18px 5px rgba(38,59,94,.1);
+    }
+    .nav-link{
+      font-size: 17px;
+      font-weight: 600;
+      color: #024c5f;
+    }
+  }
+}
+.expect-body{
+  padding: 30px;
+  & .expect-img-box{
+    width: 80px;
+    margin-bottom: 20px;
+  }
+}
+/* expect-section End */
