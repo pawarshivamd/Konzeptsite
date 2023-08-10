@@ -6938,6 +6938,7 @@ input[type="radio"] {
           /* width: 100%; */
           float: left;
           margin-inline: auto;
+          height: 60px;
         }
         & span{
           /* width: 100%; */
@@ -6983,6 +6984,7 @@ input[type="radio"] {
           /* width: 100%; */
           float: left;
           margin-inline: auto;
+          height: 60px;
         }
         & span{
           /* width: 100%; */
@@ -7011,7 +7013,6 @@ section.our-works {
   text-align: center;
 }
 .work-circle{
-  border: 1px solid red;
   padding: 20px 0;
   .work-list-ul{
     display: flex;
@@ -7020,7 +7021,6 @@ section.our-works {
     padding: 0;
     justify-content: center;
     .hexagon-container{
-      /* border: 1px solid black; */
       width: 200px;
       height: 150px;
       border-radius: 10px;
@@ -7035,6 +7035,7 @@ section.our-works {
         /* width: 100%; */
         float: left;
         margin-inline: auto;
+        height: 60px;
       }
       & span{
         /* width: 100%; */
@@ -7047,11 +7048,12 @@ section.our-works {
   }
 }
 }
+/* round circle  */
 @media (max-width:1599px) and (min-width:1300px) {
 
 section.our-works {
   width: 100%;
-  float: left;
+  /* float: left; */
   padding: 80px 0;
   margin: 0;
   text-align: center;
@@ -7213,7 +7215,7 @@ section.our-works .work-circle>.imgoralss{
   animation: circle 75s infinite linear reverse;
   cursor: pointer;
 }
-@keyframes circle{
+/* @keyframes circle{
   0% {
       transform: rotate(0deg);
       -webkit-transform: rotate(0deg);
@@ -7222,7 +7224,7 @@ section.our-works .work-circle>.imgoralss{
       transform: rotate(360deg);
       -webkit-transform: rotate(360deg);
   }
-}
+} */
 /* .hexagon-container {
   width: 100px;
   height: 100px;
